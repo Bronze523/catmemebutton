@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猫ミームボタン</title>
+
+  <link rel="stylesheet" href="css/volume-style.css">
+  <link rel="stylesheet" href="css/mode-style.css">
+  <link rel="stylesheet" href="css/sound-style.css">
+
+  <style>
+    .box {
+      text-align: center; /* テキストを中央寄せにする */
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <span style="font-size: 36px; font-family:Arial, Helvetica, sans-serif">猫ミームボタン</span><br>
+</div>
+
+  <!-- モード切替ボタン -->
+  <button class="mode-button one-shot-mode" onclick="toggleMode()">One shot</button>
+
+  <!-- ボリュームバー -->
+  <div class="volume-slider-container">
+  <input type="range" min="0" max="100" step="10" value="50" class="volume-slider" id="volume-slider">
+  </div>
+
+  <!-- 再生ボタン一覧 -->
+  <center>
+  <button class="sound-button" onclick="playSound('audio/amongus.wav')">among us</button>
+  <button class="sound-button" onclick="playSound('audio/banana_neko_gokyu.wav')">号泣するバナナ猫</button>
+  <button class="sound-button" onclick="playSound('audio/banana_neko_seki.wav')">咳</button>
+  <button class="sound-button" onclick="playSound('audio/banana_neko_suimin.wav')">いびき</button>
+  <br>
+  <button class="sound-button" onclick="playSound('audio/banzaineko.wav')">頭を抱える猫</button>
+  <button class="sound-button" onclick="playSound('audio/chipichipi.wav')">チピチャパ猫</button>
+  <button class="sound-button" onclick="playSound('audio/dance_neko2.wav')">ダンス猫</button>
+  <button class="sound-button" onclick="playSound('audio/DJcat.wav')">DJ猫</button>
+  <br>
+  <button class="sound-button" onclick="playSound('audio/driving_cat.wav')">ドライブ猫</button>
+  <button class="sound-button" onclick="playRandomSound('audio/happy_yonedu.wav', 'audio/happyhappycat.wav')">Happy Happy</button>
+  <button class="sound-button" onclick="playSound('audio/heyheyyouyou.wav')">Hey Hey you you</button>
+  <button class="sound-button" onclick="playSound('audio/houseparty.wav')">EDMを踊る猫(house party)</button>
+  <br>
+  <button class="sound-button" onclick="playSound('audio/housepartyonly.wav')">house party!</button>
+  <button class="sound-button" onclick="playSound('audio/huhcat.wav')">huh</button>
+  <button class="sound-button" onclick="playSound('audio/huuuh.wav')">huuuh</button>
+  <button class="sound-button" onclick="playSound('audio/ikaricat.wav')">怒る猫</button>
+  <br>
+  <button class="sound-button" onclick="playSound('audio/laughing_dog.wav')">笑う犬</button>
+  <button class="sound-button" onclick="playSound('audio/mitumeai_cat.wav')">見つめ合い猫</button>
+  <button class="sound-button" onclick="playSound('audio/pakupaku.wav')">パクパク猫</button>
+  <button class="sound-button" onclick="playSound('audio/screaming_cat.wav')">叫ぶ猫</button>
+  <br>
+  <button class="sound-button" onclick="playSound('audio/sekkyoneko.wav')">説教猫 1</button>
+  <button class="sound-button" onclick="playSound('audio/sekkyoneko2.wav')">説教猫 2</button>
+  <button class="sound-button" onclick="playSound('audio/sekkyosareruneko_short.wav')">Sad cat(short)</button>
+  <button class="sound-button" onclick="playSound('audio/sekkyosareruneko_long.wav')">Sad cat(long)</button>
+  <br>
+  <button class="sound-button" onclick="playSound('audio/sleepy_cat.wav')">sleepy cat</button>
+  <button class="sound-button" onclick="playSound('audio/sourcream_cat.wav')">サワークリーム猫</button>
+  <button class="sound-button" onclick="playSound('audio/yagi1.wav')">うるさいヤギ 1</button>
+  <button class="sound-button" onclick="playSound('audio/yagi2.wav')">うるさいヤギ 2</button>
+  
+  <script src="js/script.js"></script>
+  </center>
+
+</body>
+</html>
