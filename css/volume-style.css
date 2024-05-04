@@ -1,0 +1,32 @@
+.volume-slider-container {
+    width: 100px; /* バーの幅 */
+    margin: 10px ; /* autoで上下中央揃え */
+}
+
+.volume-slider {
+  width: 100%; /* バーの幅を100%に設定 */
+  -webkit-appearance: none; /* Webkitブラウザのデフォルトスタイルを無効化 */
+  appearance: none; /* ブラウザのデフォルトスタイルを無効化 */
+  background-color: #f7fffe; /* バーの背景色 */
+  border:2px solid #bdedf3;
+  border-radius: 10px;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Webkitブラウザのデフォルトスタイルを無効化 */
+  appearance: none; /* ブラウザのデフォルトスタイルを無効化 */
+  width: 16px; /* スライダーのハンドルの幅 */
+  height: 16px; /* スライダーのハンドルの高さ */
+  background-color: #008cff; /* スライダーのハンドルの背景色 */
+  border-radius: 50%; /* スライダーのハンドルを丸くする */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+
+.volume-slider-bar {
+  width: 100%;
+  -webkit-appearance: none; /* Webkitブラウザのデフォルトスタイルを無効化 */
+  appearance: none; /* ブラウザのデフォルトスタイルを無効化 */
+  background-color: #00aeff; /* バーの背景色 */
+  border:2px solid #00aeff;
+  border-radius: 10px;
+}

@@ -1,0 +1,24 @@
+.sound-button {
+  display: inline-block;
+  width: 90px; /* ボタンの幅を固定 */
+  height: 90px; /* ボタンの高さを固定 */
+  line-height: 1.5; /* テキストの行の高さを調整 */
+  margin: 1px;
+  background-color: #fffac2;
+  color: #000000;
+  border: 2px solid #333;
+  border-radius: 100%;
+  cursor: pointer;
+  font: arial;
+  font-size: 14px;
+  text-align: center; /* テキストを中央揃え */
+  vertical-align: middle; /* テキストの垂直方向の配置を中央に */
+}
+
+.sound-button:hover {
+  background-color: #fff177;
+}
+
+.sound-button:active {
+  background-color: #fffad0;
+}

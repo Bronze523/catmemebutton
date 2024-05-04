@@ -1,0 +1,35 @@
+.mode-button {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font:Arial;
+  font-size: 14px;
+}
+
+/* ワンショットモード */
+.one-shot-mode {
+  background-color: #cb47ff; /* ワンショットモードの背景色 */
+  color: #fff; /* ワンショットモードのテキスト色 */
+}
+.one-shot-mode:hover {
+  background-color: #df8eff;
+}
+.one-shot-mode:active{
+  background-color: #f7e1ff;
+}
+/* 通常モード */
+.normal-mode {
+  background-color: #007bff; /* 通常モードの背景色 */
+  color: #fff; /* 通常モードのテキスト色 */
+}
+.normal-mode:hover {
+  background-color: #3798ff;
+}
+.normal-mode:active{
+  background-color: #e4f1ff;
+}
+
+
